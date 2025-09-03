@@ -72,6 +72,21 @@ section {
     border-radius: 5px;
 }
 
+.image-section {
+    display: flex;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.image-section .text-content {
+    flex: 1;
+}
+
 h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
