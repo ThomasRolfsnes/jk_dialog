@@ -87,6 +87,26 @@ section {
     flex: 1;
 }
 
+.help-section {
+    display: flex;
+    align-items: center;
+}
+
+.help-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.help-image {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.help-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
 h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
