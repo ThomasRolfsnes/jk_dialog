@@ -128,3 +128,19 @@ li {
 li strong {
     display: block;
 }
+
+@media (max-width: 768px) {
+    .image-section, .help-section {
+        flex-direction: column;
+    }
+
+    .image-section img, .help-image {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .help-content {
+        padding-right: 0;
+    }
+}
