@@ -144,3 +144,12 @@ li strong {
         padding-right: 0;
     }
 }
+
+footer {
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+    padding: 1rem;
+    color: #666;
+    line-height: 1.2;
+}
